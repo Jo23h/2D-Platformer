@@ -9,6 +9,7 @@ body {
 
 #welcomeGif {
     z-index: 1;
+    position: relative;
 }
 
 #startButton{
