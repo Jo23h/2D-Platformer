@@ -12,9 +12,15 @@ body {
     position: relative;
 }
 
+.buttons{
+    display: flex;          
+    align-items: center;    
+    justify-content: center;
+}
+
 #startButton{
-       top: 30%;
-       right: 10px;
+       top: 10%;
+       left: 55%;
        width:100px;
        height:40px;
        position: absolute;
@@ -23,8 +29,8 @@ body {
 }
 
 #instructionButton{
-       top: calc(20% + 50px);
-       left:55%;
+       top: 15%;
+       left: 55%;
        width:100px;
        height:40px;
        position: absolute;
@@ -33,7 +39,7 @@ body {
 }
 
 #musicButton{
-       top: calc(5% + 100px);
+       top: 20%;
        left:55%;
        width:100px;
        height:40px;
