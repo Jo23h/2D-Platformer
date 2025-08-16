@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#welcomeGif {
+    z-index: 1;
+}
+
+#startButton{
+       top:10%;
+       left:55%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+}
+
+#instructionButton{
+       top:15%;
+       left:55%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+}
+
+#musicButton{
+       top:20%;
+       left:55%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+}
+
+.instructions {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.instructions h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.instructions p {
+    font-size: 18px;
+    margin: 10px 0;
+}
