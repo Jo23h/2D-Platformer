@@ -13,7 +13,7 @@ body {
 }
 
 #startButton{
-       top:5%;
+       top: 30%;
        right: 10px;
        width:100px;
        height:40px;
@@ -23,7 +23,7 @@ body {
 }
 
 #instructionButton{
-       top: calc(5% + 50px);
+       top: calc(20% + 50px);
        left:55%;
        width:100px;
        height:40px;
