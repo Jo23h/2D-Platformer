@@ -19,7 +19,7 @@ body {
 }
 
 #startButton{
-       top: 10%;
+       top: 20%;
        left: 55%;
        width:100px;
        height:40px;
@@ -29,7 +29,7 @@ body {
 }
 
 #instructionButton{
-       top: 15%;
+       top: 25%;
        left: 55%;
        width:100px;
        height:40px;
@@ -39,7 +39,7 @@ body {
 }
 
 #musicButton{
-       top: 20%;
+       top: 30%;
        left:55%;
        width:100px;
        height:40px;
