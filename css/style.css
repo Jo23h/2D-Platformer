@@ -25,7 +25,7 @@ body {
     transform: translateX(-50%);
 }
 
-#startButton {
+/* #startButton {
     top: 25%;
     left: 50%;
 }
@@ -38,6 +38,23 @@ body {
 #musicButton {
     top: 39%;
     left: 50%;
+} */
+
+#startButton {
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -80px);  
+}
+
+#instructionButton {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30px);  
+
+#musicButton {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20px);  
 }
 
 .instructions {
