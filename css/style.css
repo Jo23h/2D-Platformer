@@ -16,40 +16,28 @@ body {
     position: relative;
 }
 
-.buttons{
-    display: flex;          
-    align-items: center;    
-    justify-content: center;
+#startButton, #instructionButton, #musicButton {
+    position: absolute;
+    z-index: 2;
+    background: orange;
+    width: 100px;
+    height: 40px;
+    transform: translateX(-50%);
 }
 
-#startButton{
-       top: 10%;
-       left: 55%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       background: orange; 
+#startButton {
+    top: 10%;
+    left: 50%;
 }
 
-#instructionButton{
-       top: 15%;
-       left: 55%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       background: orange; 
+#instructionButton {
+    top: 15%;
+    left: 50%;
 }
 
-#musicButton{
-       top: 20%;
-       left: 55%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       background: orange; 
+#musicButton {
+    top: 20%;
+    left: 50%;
 }
 
 .instructions {
