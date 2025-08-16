@@ -13,8 +13,8 @@ body {
 }
 
 #startButton{
-       top:10%;
-       left:55%;
+       top:5%;
+       right: 10px;
        width:100px;
        height:40px;
        position: absolute;
@@ -23,7 +23,7 @@ body {
 }
 
 #instructionButton{
-       top:15%;
+       top: calc(5% + 50px);
        left:55%;
        width:100px;
        height:40px;
@@ -33,7 +33,7 @@ body {
 }
 
 #musicButton{
-       top:20%;
+       top: calc(5% + 100px);
        left:55%;
        width:100px;
        height:40px;
