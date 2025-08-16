@@ -1,9 +1,12 @@
+
 body {
     margin: 0;
     background-color: black;
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
     height: 100vh;
 }
 
@@ -19,8 +22,8 @@ body {
 }
 
 #startButton{
-       top: 20%;
-       left: 55%;
+       top: 20px;
+       left: 20px;
        width:100px;
        height:40px;
        position: absolute;
@@ -29,8 +32,8 @@ body {
 }
 
 #instructionButton{
-       top: 25%;
-       left: 55%;
+       top: 25px;
+       left: 25px;
        width:100px;
        height:40px;
        position: absolute;
@@ -39,8 +42,8 @@ body {
 }
 
 #musicButton{
-       top: 30%;
-       left:55%;
+       top: 30px;
+       left: 30px;
        width:100px;
        height:40px;
        position: absolute;

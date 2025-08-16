@@ -128,24 +128,30 @@ document.addEventListener('keydown', event => {
 // Create Player (1)
 let playerImg = new Image()
 playerImg.src = './img/slime.png'
+playerImg.alt = "Green slime to represent player"
 
 
 // Create Platforms
 let platformSmall = new Image()
 platformSmall.src = './img/small.png'
+platformSmall.alt = "Small platform for player to jump on"
 
 let platformMed = new Image()
 platformMed.src = './img/medium.png'
+platformMed.alt = "Medium-sized platform for player to jump on"
 
 let floor = new Image()
 floor.src = './img/floor.png'
+floor.alt = "Starting point"
 
 let goal = new Image()
 goal.src = './img/portal.png'
+goal.alt = "Portal to visualize end goal"
 
 // Create background image
 const backgroundImg = new Image()
 backgroundImg.src = './img/background.png'
+backgroundImg.alt = "Sleepywood backdrop"
 
 let platforms = []
 let background
